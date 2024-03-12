@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY1ZTljMmEwNjJjMWYxNjhmMTAwMWEyNCIsImlhdCI6MTcxMDIzMTEyNywiZXhwIjoxNzEwMjM0NzI3fQ.zLNIcoynZMXU59K1SmMTqvEr1Yrfc4YmTawgbnyTLQA
+
+{
+  "author": "Hafez",
+  "title": "Divan",
+  "url":"dmfkldjfi",
+  "likes":100, 
+  "userId":"65e9c2a062c1f168f1001a24"
+}
